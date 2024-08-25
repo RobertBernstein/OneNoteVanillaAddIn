@@ -19,7 +19,7 @@ namespace MyApplication.VanillaAddIn.Properties {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Resources {
@@ -81,6 +81,16 @@ namespace MyApplication.VanillaAddIn.Properties {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; ?&gt;
+        ///&lt;customUI xmlns=&quot;http://schemas.microsoft.com/office/2006/01/customui&quot; loadImage=&quot;GetImage&quot;&gt;
+        ///    &lt;ribbon&gt;
+        ///        &lt;tabs&gt;
+        ///          &lt;tab idMso=&quot;TabHome&quot;&gt;
+        ///                &lt;group id=&quot;groupVanillaAddIn&quot; label=&quot;VanillaAddIn&quot;&gt;
+        ///                    &lt;button id=&quot;buttonVanillaAddIn&quot; label=&quot;VanillaAddIn&quot; size=&quot;large&quot; screentip=&quot;VanillaAddIn&quot; onAction=&quot;VanillaAddInButtonClicked&quot; image=&quot;Logo.png&quot;/&gt;
+        ///                &lt;/group&gt;
+        ///            
+        ///          &lt;/tab&gt;
+        ///            &lt;tab id [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string ribbon {
             get {
